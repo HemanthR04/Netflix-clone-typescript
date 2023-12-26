@@ -1,13 +1,15 @@
-import { Button } from '@/components/ui/button'
-import React from 'react'
+import { getServerSession } from "next-auth";
 
-const Home = () => {
-  return (
-    <div className='m-5'>
-      <Button>Hello from the schadui</Button>
-      <p>Hello from Hemanth</p>
-    </div>
-  )
+import { authOptions } from "./utils/auth";
+
+import { redirect } from "next/navigation";
+
+export default async function Home() {
+  const session = await getServerSession(authOptions);
+
+  if (!session) {
+    return redirect("/login");
+  } else {
+    return redirect("/home");
+  }
 }
-
-export default Home
