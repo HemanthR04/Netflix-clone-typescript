@@ -4,6 +4,8 @@ import { authOptions } from "../utils/auth";
 import { redirect } from "next/navigation";
 import Navbar from "../components/NavBar";
 
+
+
 export default async function HomeLayout({children}:{children:ReactNode}){
     const session = await getServerSession(authOptions)
 
