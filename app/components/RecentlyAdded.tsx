@@ -25,7 +25,7 @@ async function getData(userId: string) {
     orderBy: {
       createdAt: "desc",
     },
-    take: 4,
+     take: 13,
   });
 
   return data;

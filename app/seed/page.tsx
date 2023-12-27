@@ -162,20 +162,6 @@ export default function SeedDatabase() {
           category: "show",
           youtubeString: "https://www.youtube.com/embed/7hRxWGo49oc",
         },
-        {
-          id: 11,
-          title: "Sapta Sagaradaache Ello",
-          age: 12,
-          duration: 2.28,
-          imageString:
-            "https://image.tmdb.org/t/p/original/y4PDksvxM05sNxacoU8xIYITCDA.jpg",
-          overview:
-            "Manu and Priya's ardent love story unfolds, delving into the depths of their emotions. Manu goes to great lengths to fulfill his promise and their love faces a profound transformation when destiny triggers an unexpected turn.",
-          release: 2023,
-          videoSource: "https://res.cloudinary.com/dhoy0bkl7/video/upload/v1703660863/videos/Sapta_Sagaradaache_Ello_Side_A_-_Official_Trailer___Rakshit_Shetty___Rukmini___Hemanth_M_Rao_wcggch.mp4",
-          category: "movie",
-          youtubeString: "https://www.youtube.com/embed/hcJ1ZHHahMA?si=pvdj0rv3josHEVBL",
-        },
       ],
     });
   }
