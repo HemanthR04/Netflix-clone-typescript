@@ -45,7 +45,7 @@ export default function Navbar() {
                   <li>
                     <Link
                       href={link.href}
-                      className="text-gray-300 font-normal"
+                      className="text-gray-400 font-normal"
                     >
                       {link.name}
                     </Link>
